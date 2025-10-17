@@ -12,8 +12,11 @@ print("Before swapping : x = ",x,", y = "y)
 
 # without using third variable
 
-x = x + y
-y = x - y
-x = x - y
+# x = x + y
+# y = x - y
+# x = x - y
+
+# python special syntax
+x,y = y,x
 
 print("After swapping : x = ",x,", y = "y)
